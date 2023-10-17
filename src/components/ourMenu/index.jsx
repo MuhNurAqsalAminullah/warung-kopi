@@ -1,7 +1,21 @@
 import React from "react";
 import * as MdIcons from "react-icons/md";
 import * as ImIcons from "react-icons/im";
+
+// <><><><><> image background <><><><>
 import bgKasar from "../../assets/images/bg-footer.jpg";
+import bgOutMenu from "../../assets/images/out-menu.jpg";
+
+// <><><><><> image Items <><><><>
+import imgIconCoffee from "../../assets/images/iconcoffee1.png";
+import imgCoffee1 from "../../assets/images/kopi1.jpg";
+import imgCoffee2 from "../../assets/images/kopi2.jpg";
+import imgCoffee3 from "../../assets/images/kopi3.jpg";
+import imgCoffee4 from "../../assets/images/kopi4.jpg";
+import imgFood1 from "../../assets/images/makan1.jpeg";
+import imgFood2 from "../../assets/images/makan2.jpeg";
+import imgFood3 from "../../assets/images/makan3.jpeg";
+import imgFood4 from "../../assets/images/makan4.jpg";
 
 const OurMenu = () => {
   return (
@@ -9,7 +23,7 @@ const OurMenu = () => {
       <div className="overflow-hidden fixed z-[-1] sm:h-[200px] md:h-[350px] lg:h-[450px] bg-[#848484]">
         <img
           className="sm:w-full md:relative md:bottom-[50px] lg:bottom-[200px]"
-          src={require("../../assets/images/out-menu.jpg")}
+          src={bgOutMenu}
           alt="our-menu"
         />
       </div>
@@ -26,7 +40,7 @@ const OurMenu = () => {
           <div className="flex justify-center gap-x-3">
             <div className="border-b border-[#3D1C05] sm:w-[20%]"></div>
             <img
-              src={require("../../assets/images/iconcoffee1.png")}
+              src={imgIconCoffee}
               className="sm:w-[25px] md:w-[30px] lg:w-[35px] relative top-2"
             />
             <div className="border-b border-[#3D1C05] sm:w-[20%]"></div>
@@ -40,10 +54,7 @@ const OurMenu = () => {
         <div className="sm:mx-5 md:mx-10 lg:mx-20 pb-20 lg:flex lg:flex-wrap">
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/kopi1.jpg")}
-                className="w-full"
-              />
+              <img src={imgCoffee1} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -64,10 +75,7 @@ const OurMenu = () => {
           </div>
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/kopi2.jpg")}
-                className="w-full"
-              />
+              <img src={imgCoffee2} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -88,10 +96,7 @@ const OurMenu = () => {
           </div>
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/kopi3.jpg")}
-                className="w-full"
-              />
+              <img src={imgCoffee3} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -112,10 +117,7 @@ const OurMenu = () => {
           </div>
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/kopi4.jpg")}
-                className="w-full"
-              />
+              <img src={imgCoffee4} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -143,7 +145,7 @@ const OurMenu = () => {
           <div className="flex justify-center gap-x-3">
             <div className="border-b border-[#3D1C05] sm:w-[20%]"></div>
             <img
-              src={require("../../assets/images/iconcoffee1.png")}
+              src={imgIconCoffee}
               className="sm:w-[25px] md:w-[30px] lg:w-[35px] relative top-2"
             />
             <div className="border-b border-[#3D1C05] sm:w-[20%]"></div>
@@ -157,10 +159,7 @@ const OurMenu = () => {
         <div className="sm:mx-5 md:mx-10 lg:mx-20 pb-20 lg:flex lg:flex-wrap">
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/makan1.jpeg")}
-                className="w-full"
-              />
+              <img src={imgFood1} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -181,10 +180,7 @@ const OurMenu = () => {
           </div>
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/makan2.jpeg")}
-                className="w-full"
-              />
+              <img src={imgFood2} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -205,10 +201,7 @@ const OurMenu = () => {
           </div>
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/makan3.jpeg")}
-                className="w-full"
-              />
+              <img src={imgFood3} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>
@@ -229,10 +222,7 @@ const OurMenu = () => {
           </div>
           <div className="sm:mb-8 md:flex lg:w-1/2">
             <div className="sm:w-full sm:h-[250px] md:w-[300px] md:h-[150px] rounded-md overflow-hidden">
-              <img
-                src={require("../../assets/images/makan4.jpg")}
-                className="w-full"
-              />
+              <img src={imgFood4} className="w-full" />
             </div>
             <div className="sm:p-5 md:py-0 leading-8 flex justify-between w-full">
               <div>

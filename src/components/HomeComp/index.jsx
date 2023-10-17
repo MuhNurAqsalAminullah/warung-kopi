@@ -1,7 +1,22 @@
 import React from "react";
+
+// <><><><><> image background <><><><>
 import bgHome from "../../assets/images/bg-home.jpg";
 import bgKasar from "../../assets/images/bg-kasar2.jpg";
 import bgFooter from "../../assets/images/bg-footer.jpg";
+
+// <><><><><> image Items <><><><>
+import imgResto from "../../assets/images/bg-welcome.png";
+import imgIconCoffee from "../../assets/images/iconcoffee1.png";
+import imgCoffee1 from "../../assets/images/kopi1.jpg";
+import imgCoffee2 from "../../assets/images/kopi2.jpg";
+import imgCoffee3 from "../../assets/images/kopi3.jpg";
+import imgCoffee4 from "../../assets/images/kopi4.jpg";
+import imgFood1 from "../../assets/images/makan1.jpeg";
+import imgFood2 from "../../assets/images/makan2.jpeg";
+import imgFood3 from "../../assets/images/makan3.jpeg";
+import imgFood4 from "../../assets/images/makan4.jpg";
+
 import * as GiIcons from "react-icons/gi";
 import * as MdIcons from "react-icons/md";
 import * as HiIcons from "react-icons/hi";
@@ -34,7 +49,7 @@ const HomeComp = () => {
 
       <div className="sm:px-5 sm:my-20 md:px-10 lg:px-20 md:flex md:justify-between md:items-center">
         <div className="md:w-[45%] overflow-hidden">
-          <img src={require("../../assets/images/bg-welcome.png")} alt="" />
+          <img src={imgResto} alt="" />
         </div>
         <div className="md:w-[45%]">
           <h3 className="text-[#3D1C05] font-[Kalam] font-bold sm:text-3xl md:text-4xl lg:text-6xl mb-1 sm:mt-5 md:mt-0">
@@ -99,7 +114,7 @@ const HomeComp = () => {
         <div className="flex justify-center gap-x-3">
           <div className="border-b border-[#3D1C05] sm:w-[20%]"></div>
           <img
-            src={require("../../assets/images/iconcoffee1.png")}
+            src={imgIconCoffee}
             className="sm:w-[25px] md:w-[30px] lg:w-[35px] relative top-2"
           />
           <div className="border-b border-[#3D1C05] sm:w-[20%]"></div>
@@ -112,60 +127,28 @@ const HomeComp = () => {
 
       <div className="sm:flex sm:flex-col sm:gap-y-5 md:flex-row md:gap-x-5 md:justify-between md:flex-wrap mb-20">
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/kopi1.jpg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgCoffee1} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/kopi2.jpg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgCoffee2} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/kopi3.jpg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgCoffee3} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/kopi4.jpg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgCoffee4} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/makan1.jpeg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgFood1} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/makan2.jpeg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgFood2} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/makan3.jpeg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgFood3} alt="" className="w-full" />
         </div>
         <div className="sm:w-full sm:h-[250px] md:w-[48%] lg:w-[23%] lg:h-[250px] overflow-hidden">
-          <img
-            src={require("../../assets/images/makan4.jpg")}
-            alt=""
-            className="w-full"
-          />
+          <img src={imgFood4} alt="" className="w-full" />
         </div>
       </div>
 
