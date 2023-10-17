@@ -9,6 +9,6 @@ Di direktori projek, anda dapat menjalankan:
 
 ### `npm run dev`
 
-## Link Online  App Notes
+## Link Online  Warung Kopi
 
 https://street-kopi.netlify.app
