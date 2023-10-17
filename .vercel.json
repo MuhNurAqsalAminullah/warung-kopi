@@ -1,0 +1,8 @@
+{
+  "framework": "react",
+  "target": "web",
+  "build": {
+    "command": "vite build",
+    "watch": true
+  }
+}
